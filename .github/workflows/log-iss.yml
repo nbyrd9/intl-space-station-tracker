@@ -1,0 +1,33 @@
+name: log-iss
+
+on:
+  schedule:
+    # Fires every 2 hours. scripts/scheduled_commit.py then decides, from a
+    # date-seeded RNG, whether the current 2-hour window is one of today's
+    # 2-7 chosen observation windows, and adds a random 0-85 min sleep so
+    # the push time is unpredictable.
+    - cron: "0 */2 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: log-iss
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Plan, log an observation, and push if this window is scheduled
+        run: python scripts/scheduled_commit.py
