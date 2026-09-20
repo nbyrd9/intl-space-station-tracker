@@ -1,6 +1,6 @@
-# International Space Station Tracker
+# ISS Tracker
 
-A growing, public dataset of the International Space Station's (ISS) real-time
+A growing, public dataset of the International Space Station's real-time
 position, logged by a scheduled GitHub Actions workflow that samples it a
 few times a day at randomized moments. Every observation is a genuinely
 new data point, since the station moves at roughly 7.66 km/s (~27,600 km/h)
@@ -20,9 +20,9 @@ new data point, since the station moves at roughly 7.66 km/s (~27,600 km/h)
 
 ## Latest observation
 
-- **Captured:** 2026-09-20 04:35:49 UTC
-- **Position:** -40.4208, 78.3134 ([view on a map](https://www.google.com/maps?q=-40.4208,78.3134))
-- **Total observations logged:** 11
+- **Captured:** 2026-09-20 18:02:16 UTC
+- **Position:** -10.5195, 104.2467 ([view on a map](https://www.google.com/maps?q=-10.5195,104.2467))
+- **Total observations logged:** 12
 
 ## Currently in space (12)
 
