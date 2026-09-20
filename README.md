@@ -1,4 +1,4 @@
-# ISS Tracker
+# International Space Station Tracker
 
 A growing, public dataset of the International Space Station's real-time
 position, logged by a scheduled GitHub Actions workflow that samples it a
