@@ -1,6 +1,6 @@
 # International Space Station Tracker
 
-A growing, public dataset of the International Space Station's real-time
+A growing, public dataset of the International Space Station's (ISS) real-time
 position, logged by a scheduled GitHub Actions workflow that samples it a
 few times a day at randomized moments. Every observation is a genuinely
 new data point, since the station moves at roughly 7.66 km/s (~27,600 km/h)
