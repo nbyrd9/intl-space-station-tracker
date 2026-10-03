@@ -20,13 +20,24 @@ new data point, since the station moves at roughly 7.66 km/s (~27,600 km/h)
 
 ## Latest observation
 
-- **Captured:** 2026-10-03 14:18:34 UTC
-- **Position:** -30.7804, -132.8010 ([view on a map](https://www.google.com/maps?q=-30.7804,-132.8010))
-- **Total observations logged:** 30
+- **Captured:** 2026-10-03 18:10:40 UTC
+- **Position:** 30.1289, -11.0207 ([view on a map](https://www.google.com/maps?q=30.1289,-11.0207))
+- **Total observations logged:** 31
 
-## Currently in space (0)
+## Currently in space (12)
 
-_No crew data available._
+- Oleg Kononenko (ISS)
+- Nikolai Chub (ISS)
+- Tracy Caldwell Dyson (ISS)
+- Matthew Dominick (ISS)
+- Michael Barratt (ISS)
+- Jeanette Epps (ISS)
+- Alexander Grebenkin (ISS)
+- Butch Wilmore (ISS)
+- Sunita Williams (ISS)
+- Li Guangsu (Tiangong)
+- Li Cong (Tiangong)
+- Ye Guangfu (Tiangong)
 
 _Crew list from Open Notify; refreshed each run, may lag real crew changes
 by up to one workflow cycle._
