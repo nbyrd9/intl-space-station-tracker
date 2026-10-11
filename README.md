@@ -20,9 +20,9 @@ new data point, since the station moves at roughly 7.66 km/s (~27,600 km/h)
 
 ## Latest observation
 
-- **Captured:** 2026-10-11 00:31:01 UTC
-- **Position:** 37.6206, 95.6288 ([view on a map](https://www.google.com/maps?q=37.6206,95.6288))
-- **Total observations logged:** 40
+- **Captured:** 2026-10-11 04:24:48 UTC
+- **Position:** -41.9090, -136.0935 ([view on a map](https://www.google.com/maps?q=-41.9090,-136.0935))
+- **Total observations logged:** 41
 
 ## Currently in space (12)
 
